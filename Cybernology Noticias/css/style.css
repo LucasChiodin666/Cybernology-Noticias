@@ -1,0 +1,102 @@
+body {
+    background: #f4f4f4; /* Fondo claro */
+    color: #333; /* Texto oscuro */
+    font-family: 'Arial', sans-serif; /* Fuente estándar */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: #333; /* Fondo oscuro para el encabezado */
+    color: #fff; /* Texto blanco */
+    border-bottom: 3px solid #ddd; /* Borde gris claro */
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+h2 {
+    color: #555; /* Gris oscuro */
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid #ddd; /* Borde gris claro */
+}
+
+#inicio {
+    background: #fff; /* Fondo blanco para la sección */
+    color: #333; /* Texto oscuro */
+    border: 2px solid #ddd; /* Borde gris claro */
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center; /* Centra el texto dentro de la sección */
+    margin: 20px auto; /* Centra la sección horizontalmente */
+    width: 80%; /* Ajusta el ancho de la sección */
+    max-width: 800px; /* Ancho máximo para evitar que sea demasiado grande en pantallas grandes */
+}
+
+#news-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.news-item {
+    background: #fff; /* Fondo blanco para los ítems de noticias */
+    border: 1px solid #ddd; /* Borde gris claro */
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+    width: 80%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.news-item h3 {
+    color: #333; /* Texto oscuro para el título */
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.news-item p {
+    color: #666; /* Gris medio para la descripción */
+    font-size: 1em;
+}
+
+.news-item a {
+    color: #0066cc; /* Azul para los enlaces */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.news-item a:hover {
+    text-decoration: underline;
+    color: #004999; /* Azul más oscuro al pasar el mouse */
+}
+
+#inicio p {
+    color: #333; /* Texto oscuro */
+    font-family: 'Arial', sans-serif; /* Fuente estándar */
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer p {
+    color: #333; /* Texto oscuro */
+    text-align: center;
+    padding: 20px;
+    background: #f4f4f4; /* Fondo claro para el pie de página */
+}
+#linkedin-icono {
+    width: 25px; /* Ajusta el tamaño del icono según prefieras */
+    height: auto; /* Mantiene la proporción del icono */
+    margin-left: 10px; /* Espaciado a la izquierda del icono */
+}
+
+#linkedin-link {
+    text-decoration: none;
+}
